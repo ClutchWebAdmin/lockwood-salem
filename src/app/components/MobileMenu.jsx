@@ -5,6 +5,8 @@ import Link from "next/link";
 import { AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
 import { navLinks } from "../data/navLinks";
+import Image from "next/image";
+import logoLight from "../../../public/logos/logo-light.png";
 
 export default function MobileMenu() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -49,14 +51,20 @@ export default function MobileMenu() {
       )}
 
       {isMobileMenuOpen && (
-        <nav className="lg:hidden fixed flex flex-col h-full inset-0 bg-primaryLight opacity-[98%] z-[9000] animate__animated animate__slideInDown text-4xl">
-          <h1 className="p-5 h-[var(--header-height)] border-b">Logo</h1>
-          <div className="flex flex-col h-full items-start justify-startborder-t">
+        <nav className="lg:hidden fixed flex flex-col h-full inset-0 bg-primaryMuted text-primaryLight opacity-[98%] z-[9000] animate__animated animate__slideInDown text-7xl font-serif">
+          <Link href="/" className="p-5">
+            <Image
+              src={logoLight}
+              alt="Lockwood Apartments"
+              className="w-[200px] h-auto"
+            />
+          </Link>
+          <div className="flex flex-col h-full items-start justify-start">
             {navLinks.map((item, index) => (
               <Link
                 key={index}
                 href={item.linkTo}
-                className="border-b w-full p-5"
+                className="w-full p-5"
                 onClick={toggleMobileMenu}
               >
                 {item.text}

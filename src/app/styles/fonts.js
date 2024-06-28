@@ -1,13 +1,13 @@
 import localFont from "next/font/local";
 
-export const recia = localFont({
-  src: "./fonts/Recia-Variable.woff2",
+export const satoshi = localFont({
+  src: "./fonts/Satoshi-Variable.woff2",
   display: "swap",
-  variable: "--font-recia",
+  variable: "--font-satoshi",
 });
 
-export const supreme = localFont({
-  src: "./fonts/Supreme-Variable.woff2",
+export const erode = localFont({
+  src: "./fonts/Erode-Variable.woff2",
   display: "swap",
-  variable: "--font-supreme",
+  variable: "--font-erode",
 });

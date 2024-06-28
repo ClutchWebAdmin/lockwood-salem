@@ -8,13 +8,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primaryDark: "var(--primaryDark)",
         primaryLight: "var(--primaryLight)",
-        primaryAccent: "var(--primaryAccent)",
+        primaryDark: "var(--primaryDark)",
+        primaryGreen: "var(--primaryGreen)",
+        secondaryGreen: "var(--secondaryGreen)",
+        primaryBrown: "var(--primaryBrown)",
+        accentBrown: "var(--accentBrown)",
+        primaryMuted: "var(--primaryMuted)",
+        secondaryMuted: "var(--secondaryMuted)",
       },
       fontFamily: {
-        sans: ["var(--font-supreme)"],
-        serif: ["var(--font-recia)"],
+        sans: ["var(--font-satoshi)"],
+        serif: ["var(--font-erode)"],
       },
     },
   },

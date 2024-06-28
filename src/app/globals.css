@@ -3,14 +3,19 @@
 @tailwind utilities;
 
 :root {
-  --primaryLight: #f8f6f2;
-  --primaryDark: #291a09;
-  --primaryAccent: #173213;
+  --primaryLight: #f6f0e4;
+  --primaryDark: #181818;
+  --primaryGreen: #173213;
+  --secondaryGreen: #444d43;
+  --primaryBrown: #291a09;
+  --accentBrown: #3d2f1d;
+  --primaryMuted: #615c55;
+  --secondaryMuted: #8f867c;
 }
 
 body {
   background-color: var(--primaryLight);
-  color: var(--primaryAccent);
+  color: var(--primaryGreen);
 }
 
 main {

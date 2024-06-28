@@ -2,7 +2,7 @@ import "./globals.css";
 import "animate.css";
 import TheFooter from "./components/TheFooter";
 import { Analytics } from "@vercel/analytics/react";
-import { recia, supreme } from "./styles/fonts";
+import { satoshi, erode } from "./styles/fonts";
 import TheHeader from "./components/TheHeader";
 
 export const metadata = {
@@ -12,9 +12,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${supreme.variable} ${recia.variable}`}>
+    <html lang="en" className={`${satoshi.variable} ${erode.variable}`}>
       <body
-        className={`${recia.className} min-h-svh w-screen max-w-full flex flex-col mx-auto relative antialiased font-sans scroll-smooth`}
+        className={`min-h-svh w-screen max-w-full flex flex-col mx-auto relative antialiased font-sans scroll-smooth`}
       >
         <TheHeader />
         {children}
