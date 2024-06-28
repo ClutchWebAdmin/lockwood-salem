@@ -2,6 +2,7 @@ import Image from "next/image";
 import MobileMenu from "./MobileMenu";
 import Link from "next/link";
 import logoDark from "../../../public/logos/logo-dark.png";
+import { navLinks } from "../data/navLinks";
 
 export default function TheHeader() {
   return (
@@ -13,16 +14,16 @@ export default function TheHeader() {
               src={logoDark}
               alt="Lockwood Apartments"
               className="w-[200px] lg:w-[250px] h-auto"
+              priority
             />
           </Link>
         </div>
         <div className="hidden lg:flex flex-row justify-end gap-10 w-fit">
-          <Link href="/" className="">
-            Link 1
-          </Link>
-          <Link href="/" className="">
-            Link 2
-          </Link>
+          {navLinks.map((item, index) => (
+            <Link key={index} href={item.linkTo}>
+              {item.text}
+            </Link>
+          ))}
         </div>
         <MobileMenu />
       </nav>
