@@ -15,30 +15,15 @@ import {
   MdOutlineBubbleChart,
 } from "react-icons/md";
 
-import lockwood1 from "../../../public/images/725/lockwood-1.png";
-import lockwood2 from "../../../public/images/725/lockwood-2.png";
-import lockwood3 from "../../../public/images/725/lockwood-3.png";
-import lockwood4 from "../../../public/images/725/lockwood-4.png";
-import lockwood5 from "../../../public/images/725/lockwood-5.png";
-import lockwood6 from "../../../public/images/725/lockwood-6.png";
-import lockwood7 from "../../../public/images/725/lockwood-7.png";
-import lockwood8 from "../../../public/images/725/lockwood-8.png";
-import lockwood9 from "../../../public/images/725/lockwood-9.png";
+import lockwood1 from "../../../public/images/701/lockwood-1.png";
+import lockwood2 from "../../../public/images/701/lockwood-2.png";
+import lockwood3 from "../../../public/images/701/lockwood-3.png";
+import lockwood4 from "../../../public/images/701/lockwood-4.png";
+import lockwood5 from "../../../public/images/701/lockwood-5.png";
+import lockwood6 from "../../../public/images/701/lockwood-6.png";
 
-export const lockwood725 = {
+export const lockwood701 = {
   amenities: [
-    {
-      text: "Balcony",
-      icon: <CiSun />,
-    },
-    {
-      text: "Washer",
-      icon: <BiSolidWasher />,
-    },
-    {
-      text: "Dryer",
-      icon: <BiSolidDryer />,
-    },
     {
       text: "AC",
       icon: <PiSnowflakeLight />,
@@ -82,8 +67,16 @@ export const lockwood725 = {
   ],
   photos: [
     {
+      image: lockwood1,
+      alt: "Lockwood exterior",
+    },
+    {
+      image: lockwood2,
+      alt: "Lockwood living room",
+    },
+    {
       image: lockwood3,
-      alt: "Lockwood kitchen",
+      alt: "Lockwood living room",
     },
     {
       image: lockwood4,
@@ -95,27 +88,7 @@ export const lockwood725 = {
     },
     {
       image: lockwood6,
-      alt: "Lockwood bedroom",
-    },
-    {
-      image: lockwood7,
-      alt: "Lockwood laundry",
-    },
-    {
-      image: lockwood8,
       alt: "Lockwood bathroom",
-    },
-    {
-      image: lockwood9,
-      alt: "Lockwood bathroom",
-    },
-    {
-      image: lockwood1,
-      alt: "Lockwood exterior",
-    },
-    {
-      image: lockwood2,
-      alt: "Lockwood balcony",
     },
   ],
 };

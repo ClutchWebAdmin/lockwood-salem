@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Carousel from "../components/Carousel";
 import { lockwood725 } from "../data/lockwood725";
 
 export default function Lockwood725Page() {
@@ -29,18 +29,9 @@ export default function Lockwood725Page() {
             ))}
           </ul>
         </div>
-        <div className="flex flex-col gap-3 p-3 lg:col-span-6">
+        <div className="flex flex-col gap-3 lg:col-span-6">
           <h4 className="col-span-full text-3xl pb-4 font-medium">Photos</h4>
-          <div className="flex flex-wrap gap-3">
-            {lockwood725.photos.map((item, index) => (
-              <Image
-                key={index}
-                src={item.image}
-                alt={item.alt}
-                className="object-cover h-[100px] w-[100px] rounded"
-              />
-            ))}
-          </div>
+          <Carousel photos={lockwood725.photos} />
         </div>
       </section>
     </div>
