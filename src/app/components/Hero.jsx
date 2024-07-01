@@ -9,6 +9,7 @@ export default function Hero() {
         alt="Lockwood Apartments exterior"
         className="h-full w-full object-cover"
         priority
+        placeholder="blur"
       />
     </section>
   );
