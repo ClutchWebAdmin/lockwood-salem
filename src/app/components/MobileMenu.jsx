@@ -35,7 +35,7 @@ export default function MobileMenu() {
           aria-label="open-mobile-menu"
           onClick={toggleMobileMenu}
         >
-          <AiOutlineMenu className="h-8 w-8" />
+          <AiOutlineMenu className="h-8 w-8 text-primaryLight" />
         </button>
       </div>
 
@@ -46,12 +46,12 @@ export default function MobileMenu() {
           onClick={toggleMobileMenu}
           className="lg:hidden z-[9998] animate__animated animate__rotateIn"
         >
-          <AiOutlineClose className="h-8 w-8" />
+          <AiOutlineClose className="h-8 w-8 text-primaryLight" />
         </button>
       )}
 
       {isMobileMenuOpen && (
-        <nav className="lg:hidden fixed flex flex-col h-full inset-0 bg-primaryMuted text-primaryLight opacity-[98%] z-[9000] animate__animated animate__slideInDown text-7xl font-serif">
+        <nav className="lg:hidden fixed flex flex-col h-full inset-0 bg-primaryMuted text-primaryLight opacity-[98%] z-[9000] animate__animated animate__slideInDown text-4xl">
           <Link href="/" className="p-5">
             <Image
               src={logoLight}
@@ -70,6 +70,22 @@ export default function MobileMenu() {
                 {item.text}
               </Link>
             ))}
+            <a
+              href="mailto:propertymanager@clutchindustries.com"
+              target="_blank"
+              className="w-full p-5"
+              onClick={toggleMobileMenu}
+            >
+              Email Us
+            </a>
+            <a
+              href="tel:+15035077605"
+              target="_blank"
+              className="w-full p-5"
+              onClick={toggleMobileMenu}
+            >
+              Call Us
+            </a>
           </div>
         </nav>
       )}

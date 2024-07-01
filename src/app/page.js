@@ -1,3 +1,5 @@
+import Hero from "./components/Hero";
+
 export const metadata = {
   title: "Lockwood Apartments | 701-725 Lockwood Ln S, Salem, OR 97302",
   description: "Lockwood Apartments | 701-725 Lockwood Ln S, Salem, OR 97302",
@@ -28,7 +30,7 @@ export const metadata = {
 export default function HomePage() {
   return (
     <main>
-      <h1 className="px-5">Home Page</h1>
+      <Hero />
     </main>
   );
 }

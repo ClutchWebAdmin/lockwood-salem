@@ -1,18 +1,10 @@
 export const navLinks = [
   {
-    text: "Link 1",
-    linkTo: "/",
+    text: "701-723 Lockwood",
+    linkTo: "/701-723-lockwood",
   },
   {
-    text: "Link 2",
-    linkTo: "/",
-  },
-  {
-    text: "Link 3",
-    linkTo: "/",
-  },
-  {
-    text: "Link 4",
-    linkTo: "/",
+    text: "725 Lockwood",
+    linkTo: "/725-lockwood",
   },
 ];
