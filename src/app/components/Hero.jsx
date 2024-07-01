@@ -8,6 +8,7 @@ export default function Hero() {
         src={hero}
         alt="Lockwood Apartments exterior"
         className="h-full w-full object-cover"
+        priority
       />
     </section>
   );
