@@ -4,7 +4,7 @@ export const metadata = {
   title: "Lockwood Apartments | 701-725 Lockwood Ln S, Salem, OR 97302",
   description: "Lockwood Apartments | 701-725 Lockwood Ln S, Salem, OR 97302",
   keywords:
-    "salem oregon apartments, downtown salem apartments, downtown salem living, 1 bedroom apartments salem oregon, 1 bedroom 1 bath apartments downtown salem",
+    "salem oregon apartments, downtown salem apartments, downtown salem living, 1 bedroom apartments salem oregon, 1 bedroom 1 bath apartments downtown salem, south salem apartments, 1 bed 1 bath south salem",
   openGraph: {
     title: "Lockwood Apartments | 701-725 Lockwood Ln S, Salem, OR 97302",
     description: "Lockwood Apartments | 701-725 Lockwood Ln S, Salem, OR 97302",

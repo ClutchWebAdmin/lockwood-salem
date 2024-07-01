@@ -35,7 +35,7 @@ export default function MobileMenu() {
           aria-label="open-mobile-menu"
           onClick={toggleMobileMenu}
         >
-          <AiOutlineMenu className="h-8 w-8 text-primaryLight" />
+          <AiOutlineMenu className="h-8 w-8 text-primaryDark" />
         </button>
       </div>
 

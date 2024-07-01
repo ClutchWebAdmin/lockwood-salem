@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function TheFooter() {
   return (
-    <footer className="flex flex-col gap-12 justify-between max-w-full h-fit bg-primaryMuted text-primaryLight p-3">
+    <footer className="flex flex-col gap-12 justify-between max-w-full h-fit p-3 bg-primaryMuted text-primaryLight">
       <div className="flex flex-col lg:flex-row gap-10 lg:gap-3 p-3 pt-12">
         <div className="flex flex-col w-full md:w-1/2">
           <h4 className="col-span-full text-3xl pb-4 font-medium">Location</h4>

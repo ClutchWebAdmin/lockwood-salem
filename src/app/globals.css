@@ -11,6 +11,7 @@
   --accentBrown: #3d2f1d;
   --primaryMuted: #615c55;
   --secondaryMuted: #8f867c;
+  --desktopHeaderHeight: 120px;
 }
 
 body {
