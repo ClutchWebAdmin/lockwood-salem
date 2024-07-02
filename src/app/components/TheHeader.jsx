@@ -14,8 +14,8 @@ export default function TheHeader() {
   const isHomePage = pathname === "/";
 
   return (
-    <header className={`flex flex-col ${isHomePage && "text-primaryLight"} `}>
-      <nav className="flex flex-row items-center lg:absolute w-full justify-between p-5 bg-homepage-header">
+    <header className={`flex flex-col ${isHomePage && "text-primaryLight"}`}>
+      <nav className="flex flex-row items-center lg:absolute w-full justify-between p-5">
         <div className="flex w-fit">
           <Link href="/">
             {isHomePage ? (

@@ -6,7 +6,7 @@ export default function Hero() {
     <section className="w-full h-[350px] md:h-[600px] lg:h-svh">
       <Image
         src={hero}
-        alt="Lockwood Apartments exterior"
+        alt="Lockwood Apartments"
         className="h-full w-full object-cover"
         priority
         placeholder="blur"
