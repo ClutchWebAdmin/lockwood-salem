@@ -1,5 +1,3 @@
-import { CiSun } from "react-icons/ci";
-import { BiSolidWasher, BiSolidDryer } from "react-icons/bi";
 import {
   PiSnowflakeLight,
   PiThermometerHot,
@@ -23,6 +21,9 @@ import lockwood5 from "../../../public/images/701/lockwood-5.png";
 import lockwood6 from "../../../public/images/701/lockwood-6.png";
 
 export const lockwood701 = {
+  heading: "Lockwood 701-723",
+  badges: ["1 Bedroom", "1 Bathroom", "450 sqft"],
+  mapURL: "https://maps.app.goo.gl/bqvnBxH7SxtQgWvB6",
   amenities: [
     {
       text: "AC",
