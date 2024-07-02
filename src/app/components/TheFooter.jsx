@@ -1,5 +1,6 @@
 import logo from "../../../public/logos/footer-logo.svg";
 import Image from "next/image";
+import equalOpportunity from "../../../public/logos/equal-housing-opportunity.png";
 
 export default function TheFooter() {
   return (
@@ -37,10 +38,15 @@ export default function TheFooter() {
         className="col-span-full h-auto"
       />
 
-      <div className="flex flex-col gap-2 w-full text-center py-3 text-xs">
+      <div className="flex flex-row items-end gap-2 w-full text-xs pt-6 pb-3 px-3">
         <a href="https://clutchpropertymanagement.com" target="_blank">
           Clutch Property Management
         </a>
+        <Image
+          src={equalOpportunity}
+          alt="Equal Housing Opportunity"
+          className="w-[70px] mx-auto -mb-1"
+        />
         <p>© 2024 Lockwood Apartments</p>
       </div>
     </footer>
