@@ -5,7 +5,9 @@ export default function PropertyDetails({ propertyData }) {
   return (
     <div className="lg:mt-[var(--desktopHeaderHeight)] p-3">
       <section className="flex flex-col gap-5 p-3">
-        <h1 className="text-6xl md:text-7xl">{propertyData.heading}</h1>
+        <h1 className="text-7xl md:text-7xl lg:text-8xl">
+          {propertyData.heading}
+        </h1>
 
         <div className="flex flex-wrap gap-3 font-medium text-primaryLight">
           {propertyData.badges.map((item, index) => (
