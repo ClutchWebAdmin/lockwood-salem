@@ -1,5 +1,4 @@
 import {
-  PiSnowflakeLight,
   PiThermometerHot,
   PiOvenLight,
   PiCookingPotLight,
@@ -25,10 +24,6 @@ export const lockwood701 = {
   badges: ["1 Bedroom", "1 Bathroom", "450 sqft"],
   mapURL: "https://maps.app.goo.gl/bqvnBxH7SxtQgWvB6",
   amenities: [
-    {
-      text: "AC",
-      icon: <PiSnowflakeLight />,
-    },
     {
       text: "Heat",
       icon: <PiThermometerHot />,
