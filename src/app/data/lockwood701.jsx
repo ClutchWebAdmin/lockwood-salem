@@ -21,7 +21,7 @@ import lockwood5 from "../../../public/images/701/lockwood-5.png";
 import lockwood6 from "../../../public/images/701/lockwood-6.png";
 
 export const lockwood701 = {
-  heading: "Lockwood 701-723",
+  heading: "701-723 Lockwood",
   badges: ["1 Bedroom", "1 Bathroom", "450 sqft"],
   mapURL: "https://maps.app.goo.gl/bqvnBxH7SxtQgWvB6",
   amenities: [
