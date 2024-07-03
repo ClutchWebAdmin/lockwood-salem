@@ -7,7 +7,7 @@ export default function PropertyDetails({ propertyData }) {
       <section className="flex flex-col gap-5 p-3">
         <h1 className="text-6xl md:text-7xl">{propertyData.heading}</h1>
 
-        <div className="flex flex-row gap-3 font-medium text-primaryLight">
+        <div className="flex flex-wrap gap-3 font-medium text-primaryLight">
           {propertyData.badges.map((item, index) => (
             <p key={index} className="bg-secondaryGreen rounded px-2 py-1">
               {item}
